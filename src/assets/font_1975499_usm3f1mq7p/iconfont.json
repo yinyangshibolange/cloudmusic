@@ -1,0 +1,86 @@
+{
+  "id": "1975499",
+  "name": "cloudmusic",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16136918",
+      "name": "后退",
+      "font_class": "houtui",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "16136924",
+      "name": "前进",
+      "font_class": "qianjin",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "46298",
+      "name": "setting",
+      "font_class": "setting",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "573576",
+      "name": "triangle_down_fill",
+      "font_class": "triangledownfill",
+      "unicode": "e79b",
+      "unicode_decimal": 59291
+    },
+    {
+      "icon_id": "573577",
+      "name": "triangle_up_fill",
+      "font_class": "triangleupfill",
+      "unicode": "e79c",
+      "unicode_decimal": 59292
+    },
+    {
+      "icon_id": "6888902",
+      "name": "皮肤",
+      "font_class": "pifu",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "7532079",
+      "name": "message",
+      "font_class": "message",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "7826085",
+      "name": "close",
+      "font_class": "baseline-close-px",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "7826091",
+      "name": "check_box_outline_blank",
+      "font_class": "baseline-check_box_outline_blank-px",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "7826369",
+      "name": "remove",
+      "font_class": "baseline-remove-px",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "11372640",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e8ac",
+      "unicode_decimal": 59564
+    }
+  ]
+}

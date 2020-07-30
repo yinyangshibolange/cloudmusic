@@ -1,0 +1,389 @@
+/**
+ 极本设置
+*/
+body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, section, p, input, td, th, ins {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+body, textarea, select, input, button {
+  font-size: 12px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-size-adjust: none;
+}
+
+[hidefocus] {
+  outline: none;
+}
+a, a *, .f-hand, .f-hand * {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+/**
+ 通用设置
+*/
+.scroll-2{
+    &::-webkit-scrollbar {
+        width:3px;
+        height:3px;
+    }
+    &::-webkit-scrollbar-button    {
+        display: none;
+    }
+    &::-webkit-scrollbar-track     {
+        background:#ebebeb;
+    }
+    &::-webkit-scrollbar-track-piece {
+        display: none;
+    }
+    &::-webkit-scrollbar-thumb{
+        background:rgba(68, 68, 68, 0.644);
+        border-radius:6px;
+    }
+    &::-webkit-scrollbar-corner {
+        display: none;
+    }
+    &::-webkit-scrollbar-resizer  {
+        display: none;
+    }
+    scrollbar-face-color: #ccc;
+    scrollbar-shadow-color: #212323;
+    scrollbar-track-color: #ccc;
+    scrollbar-arrow-color: #212323;
+  }
+  
+  .select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
+  input.colorpicker {
+    outline-style: none ;
+    border: 0px;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    // color: transparent;
+    // caret-color: transparent;
+  }
+  
+  input.colorpicker:focus{
+    border: 1px solid #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+  }
+  
+  .config-unit-border {
+    border: 1px solid #999;
+    box-sizing: border-box;
+  }
+  
+  .divier {
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-left: 1.5px solid #1890FF;
+  }
+
+  .custom-number-input {
+    outline-style: none ;
+    border: 0px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+    input.custom-number-input::-webkit-outer-spin-button,
+      input.custom-number-input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+      }
+      input.custom-number-input[type="number"]{
+          -moz-appearance: textfield;
+      }
+  
+  .float-left {
+    float: left;
+  }
+  
+  .float-right {
+    float: right;
+  }
+  
+  .clearfix {
+    *zoom: 1;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+  }
+  
+  .allwidth {
+    width: 100%;
+  }
+  
+  .text-xxl {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  
+  .text-xl {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+  .text-x {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  
+  .text-cm {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  
+  .text-sm {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  
+  .text-xs {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  
+  .margin-xl {
+    margin: 24px;
+  }
+  
+  .margin {
+    margin: 20px;
+  }
+  
+  .margin-sm {
+    margin: 16px;
+  }
+  
+  .margin-xs {
+    margin: 12px;
+  }
+  
+  .margin-left-xl {
+    margin-left: 24px;
+  }
+  
+  .margin-left {
+    margin-left: 20px;
+  }
+  
+  .margin-left-sm {
+    margin-left: 16px;
+  }
+  
+  .margin-left-xs {
+    margin-left: 12px;
+  }
+  
+  .margin-top-xl {
+    margin-top: 24px;
+  }
+  
+  .margin-top {
+    margin-top: 20px;
+  }
+  
+  .margin-top-sm {
+    margin-top: 16px;
+  }
+  
+  .margin-top-xs {
+    margin-top: 12px;
+  }
+  
+  .margin-bottom-xl {
+    margin-bottom: 24px;
+  }
+  
+  .margin-bottom {
+    margin-bottom: 20px;
+  }
+  
+  .margin-bottom-sm {
+    margin-bottom: 16px;
+  }
+  
+  .margin-bottom-xs {
+    margin-bottom: 12px;
+  }
+  
+  .margin-right-xl {
+    margin-right: 24px;
+  }
+  
+  .margin-right {
+    margin-right: 20px;
+  }
+  
+  .margin-right-sm {
+    margin-right: 16px;
+  }
+  
+  .margin-right-xs {
+    margin-right: 12px;
+  }
+  
+  .padding {
+    padding: 20px;
+  }
+  
+  .padding-sm {
+    padding: 16px;
+  }
+  
+  .padding-xs {
+    padding: 12px;
+  }
+  
+  .padding-xl {
+    padding: 24px;
+  }
+  
+  .padding-left {
+    padding-left: 20px;
+  }
+  
+  .padding-left-sm {
+    padding-left: 16px;
+  }
+  
+  .padding-left-xs {
+    padding-left: 12px;
+  }
+  
+  .padding-left-xl {
+    padding-left: 24px;
+  }
+  
+  .padding-right {
+    padding-right: 20px;
+  }
+  
+  .padding-right-sm {
+    padding-right: 16px;
+  }
+  
+  .padding-right-xs {
+    padding-right: 12px;
+  }
+  
+  .padding-right-xl {
+    padding-right: 24px;
+  }
+  
+  .padding-top {
+    padding-top: 20px;
+  }
+  
+  .padding-top-sm {
+    padding-top: 16px;
+  }
+  
+  .padding-top-xs {
+    padding-top: 12px;
+  }
+  
+  .padding-top-xl {
+    padding-top: 24px;
+  }
+  
+  .padding-bottom {
+    padding-bottom: 20px;
+  }
+  
+  .padding-bottom-sm {
+    padding-bottom: 16px;
+  }
+  
+  .padding-bottom-xs {
+    padding-bottom: 12px;
+  }
+  
+  .padding-bottom-xl {
+    padding-bottom: 24px;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .flex-nowrap {
+    flex-wrap: nowrap;
+  }
+  
+  .flex-sub {
+    flex: 1;
+  }
+  
+  .flex-direction {
+    flex-direction: column;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .justify-start {
+    justify-content: flex-start;
+  }
+  
+  .justify-end {
+    justify-content: flex-end;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .justify-around {
+    justify-content: space-around;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .align-start {
+    align-items: flex-start;
+  }
+  
+  .align-end {
+    align-items: flex-end;
+  }
+  
